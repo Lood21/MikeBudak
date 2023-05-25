@@ -1,5 +1,5 @@
 let word = [document.getElementById("textP1"),document.getElementById("textP2"),document.getElementById("textP3")];
-animText(document.getElementsByClassName("labelField")[0]);
+// animText(document.getElementsByClassName("labelField")[0]);
 animateWord(word);
 function scrol(n){
     let slides = document.getElementsByClassName("sect");
