@@ -1,0 +1,89 @@
+input{
+    width: 80%;
+    height: 100%;
+    padding: 6px 14px 5px 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #797979;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #797979;
+    background-color: #464646;
+    transition: background .2s ease-out,border .2s ease-out,color .2s ease-out;
+}
+input:focus{
+    outline: 0;
+}
+form{position: relative}
+form pre{
+    padding: 6px 14px 5px 10px;
+    position: absolute;
+    font-weight: 700;
+    cursor: text;
+    overflow: hidden;
+    color:#E0B864;
+}
+.contact{
+    cursor: pointer;
+    display: inline-block;
+    color:#E0B864;
+    padding: 5px;
+    overflow: hidden;
+    max-width: 370px;
+    background-color: #464646;
+}
+.contact:hover{
+    background-color: #2f2f2f;
+}
+.box{
+    height: 160px;
+    margin-bottom: 20px;
+}
+.social{
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
+.btn{
+    padding: 16px;
+    font-size: medium;
+    margin: 20px 0px 0px 10px;
+    background-color: #464646;
+    color: #08fdd8;
+    border-radius: 10px;
+    border: #464646 1px solid;
+}
+.btn:hover{
+    border: #08fdd8 1px solid;
+
+}
+.btn:disabled{
+    border: #464646 1px solid;
+    color: #00836b;
+    background-color: #2d2d2d;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #797979;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.social button{
+    background-color: #1d1d1d;
+    display: inline-block;
+    font-size: large;
+    border: none;
+    padding-top: 5px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: center;
+}

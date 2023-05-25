@@ -1,0 +1,32 @@
+.skill{
+    display: inline-block;
+}
+
+.chartProj{
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.skills pre{
+    color: white;
+    padding: 7px;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: center;
+    background-color: #1d1d1d;
+    box-shadow: 6px 6px 15px black;
+}
+.chartProj img{
+    filter: brightness(90%);
+    border-radius: 20px;
+}
+.titlePr h2{
+    color: #08fdd8;
+    text-shadow: 3px 5px 2px black;
+}
+.skills{
+    position: absolute ;
+    top:80%;
+    left:5%;
+}
+

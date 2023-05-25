@@ -1,0 +1,48 @@
+html,body{
+
+}
+body{
+    color: #bebebe;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: #1d1d1d;
+}
+footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+h2{
+    margin: 0 0 8px;
+}
+.sect{
+    width: 100%;
+    height: 85%;
+    border: black solid 1px;
+}
+footer{
+    padding: 0 10px;
+    background: #bebebe;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+@keyframes letter{
+    0% {opacity: 0; transform: translateY(-15px)}
+    100% {opacity: 1; transform: translateY(0px)}
+}
+
+#word{
+    animation: letter 0.5s;
+    display: inline-block;
+}
+pre{
+    text-align: left;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-top: 0;
+}

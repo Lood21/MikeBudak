@@ -1,0 +1,36 @@
+
+header{
+    width: 100%;
+    background-color: #111111;
+    text-align: center;
+    position: fixed;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #111111;
+    margin: 0 auto;
+}
+.menu button{
+    background-color: #111111;
+    padding:0 20px;
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #bebebe;
+    cursor: pointer;
+}
+
+.menu button:hover{
+    color:#08fdd8;
+}
+
+
