@@ -27,6 +27,7 @@ header{
     text-align: center;
     color: #bebebe;
     cursor: pointer;
+    border: none;
 }
 
 .menu button:hover{
